@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+
+dgs:
+  graphql:
+    extensions:
+      validation:
+        enabled: true
+    schema-locations: "classpath*:graphql/**/*.graphqls"

@@ -1,0 +1,11 @@
+type RequiredTestType {
+    isRequired: Boolean!
+}
+
+type Query {
+    test: RequiredTestType
+}
+
+type Mutation {
+    test: RequiredTestType
+}
