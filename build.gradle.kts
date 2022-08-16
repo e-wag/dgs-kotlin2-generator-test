@@ -8,7 +8,7 @@ plugins {
     id("io.spring.dependency-management") version "1.0.12.RELEASE"
     id("org.springframework.boot") version "2.7.2"
     id("org.jetbrains.kotlin.plugin.allopen") version "1.7.10"
-    id("com.netflix.dgs.codegen") version "5.2.5"
+    id("com.netflix.dgs.codegen") version "5.2.6"
 }
 
 group = "org.example"
@@ -28,7 +28,7 @@ dependencies {
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
-    implementation("com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-shared-core:5.2.5")
+    implementation("com.netflix.graphql.dgs.codegen:graphql-dgs-codegen-shared-core:5.2.6")
     implementation("com.netflix.graphql.dgs:graphql-dgs-extended-scalars")
     implementation("com.netflix.graphql.dgs:graphql-dgs-extended-validation")
     implementation("com.netflix.graphql.dgs:graphql-dgs")
